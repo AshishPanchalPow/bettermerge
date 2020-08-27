@@ -3,6 +3,7 @@ workflowSkippedSteps: ["tb_test", "tb_assesssecurity","tb_deploy"]
 tags:
   dev: "staging"
  # master: "latest"
+ conflict: yes
 
 registry: "prd-registry"
 
