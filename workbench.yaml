@@ -1,9 +1,9 @@
 team: sunnybunny
-workflowSkippedSteps: ["tb_test", "tb_assesssecurity","tb_deploy"]
+workflowSkippedSteps: ["tb_test", "tb_assesssecurity"]
 tags:
   dev: "staging"
-  master: "latest"
+ # master: "latest"
 
-registry: "dev-registry"
+registry: "prd-registry"
 
 
